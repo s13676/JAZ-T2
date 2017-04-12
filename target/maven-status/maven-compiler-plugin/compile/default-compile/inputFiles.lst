@@ -1,0 +1,17 @@
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/servlet/Utils.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/domain/IHaveId.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/servlet/ProfileServlet.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/mapper/IMapResultSetToEntity.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/dao/UserRepository.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/servlet/LogoutServlet.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/web/filters/UserControl.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/servlet/RegisterServlet.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/domain/User.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/servlet/LoginServlet.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/servlet/AdminPremiumServlet.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/servlet/PremiumServlet.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/mapper/UserMapper.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/web/filters/AdminControl.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/dao/RepositoryBase.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/web/filters/LoginControl.java
+/Users/lukas/PJATK/JAZ/cw2/cw2/src/main/java/web/filters/PremiumControl.java
