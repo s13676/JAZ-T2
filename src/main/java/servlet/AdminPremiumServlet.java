@@ -23,7 +23,7 @@ public class AdminPremiumServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Utils.genereteNavLinks(Utils.getUserFromSession(req), resp);
         
-        resp.getWriter().println("<table><tr><th>Nazwa uzytkownika</th><th>Premium</th></tr>");
+        resp.getWriter().println("<table><tr><th>Nazwa uzytkownika</th><th>Premium User</th><th>Akcja Premium</th></tr>");
 
 		try {
 			Connection connection;				
@@ -43,6 +43,7 @@ public class AdminPremiumServlet extends HttpServlet {
 				
 				resp.getWriter().println("<tr>");
 				resp.getWriter().println("<td>"+ u.getUsername() +"</td>");
+				resp.getWriter().println("<td>"+ u.getPremium() +"</td>");
 				
 				resp.getWriter().println("<td><form method='post'><input type='hidden' name='id' value='"+u.getId()+"'>");
 				if (u.getPremium() == false) {
