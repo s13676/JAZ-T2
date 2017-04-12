@@ -14,7 +14,7 @@ public class Utils {
 		if (user.getPremium() == true)
         	resp.getWriter().println("<a href='/premium'>PREMIUM</a> ");
         if (user.getAdmin() == true)
-        	resp.getWriter().println("<a href='/admin'>USTAW PREMIUM</a> ");
+        	resp.getWriter().println("<a href='/admin'>LISTA/USTAW PREMIUM</a> ");
         resp.getWriter().println("<a href='/logout'>WYLOGUJ</a>");
         resp.setContentType("text/html");
 	}
